@@ -1,4 +1,4 @@
 # smallSctpTestUtility
 
-bash ./client <ip> <port>
+bash ./client [ip] [port]
 bash ./server
