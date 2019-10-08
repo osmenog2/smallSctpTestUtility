@@ -4,10 +4,6 @@
  *   gcc sctptest.c -o server -lsctp -Wall
  *   ln -s server client
  *
- * Invoke:
- *
- *   ./client
- *   ./server
  */
 
 #include <stdio.h>
