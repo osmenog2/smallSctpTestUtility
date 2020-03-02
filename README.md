@@ -4,4 +4,4 @@
  
  
  
- ./server
+ ./server - start server on port 1234
