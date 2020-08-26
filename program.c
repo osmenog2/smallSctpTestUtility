@@ -100,13 +100,15 @@ static void client(char *ip, long port) {
         close(conn_fd);
 }
 
+
+
 int main(int argc, char **argv) {
-
-        if (strstr(basename(argv[0]), "server"))
-				long port =1234;
-                server(&port);
-        else
-                client(argv[1], &port);
-
+        if (strstr(basename(argv[0]), "server")){
+                server(atoi(argv[1]));
+}
+        else{
+                client(argv[1], atoi(argv[2]));
+}
         return 0;
 }
+
