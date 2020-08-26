@@ -4,7 +4,7 @@
  
  
  
- ./server - start server on port 1234
+ ./server [port]
 
  
  gcc -Wall -g program.c -lsctp -o temp
